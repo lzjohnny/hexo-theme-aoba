@@ -33,6 +33,8 @@ $(document).on('pjax:end', function () {
   require('./pisces')();
   CONFIG.fancybox && NexT.utils.wrapImageWithFancyBox();
 
-  ga('set', 'location', window.location.href);
-  ga('send', 'pageview');
+  if (window.CONFIG.googleAnalytics) {
+    ga('set', 'location', window.location.href);
+    ga('send', 'pageview');
+  }
 });

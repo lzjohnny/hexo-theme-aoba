@@ -765,7 +765,7 @@ footer:
   icon: user
 
   # If not defined, will be used `author` from Hexo main config.
-  copyright:
+  copyright: 蒲烧鳗鱼饭团
   # -------------------------------------------------------------
   # Hexo link (Powered by Hexo).
   powered: true
@@ -777,9 +777,9 @@ footer:
     version: true
   # -------------------------------------------------------------
   # Any custom text can be defined here.
-  custom_text: custom text
+  custom_text:
   sitemap: /sitemap.xml
-  beian: xxxx
+  beian:
 
 online_api:
 
