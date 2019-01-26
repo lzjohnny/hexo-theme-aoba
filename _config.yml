@@ -19,18 +19,15 @@ override: false
 # For example, you put your favicons into `hexo-site/source/images` directory.
 # Then need to rename & redefine they on any other names, otherwise icons from Next will rewrite your custom icons in Hexo.
 favicon:
-  visibilitychange: true
+  visibilitychange: false
   narmal: /images/favicon.ico
-  hidden: /images/failure.ico
-  show_text: (/≧▽≦/)咦！又好了！
-  hide_text: (●—●)喔哟，崩溃啦！
   apple_touch_icon: /images/apple-touch-icon-next.png
   safari_pinned_tab: /images/logo.svg
   #android_manifest: /images/manifest.json
   #ms_browserconfig: /images/browserconfig.xml
 
 # Set default keywords (Use a comma to separate)
-keywords: "DIYgod,blog"
+keywords: "blog,php,back-end"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -66,9 +63,7 @@ index_with_subtitle: false
 menu:
   home: / || home
   archives: /archives/ || archive
-  投喂: /donate/ || cutlery
-  后宫: /friends/ || mars
-  留言板: /message/ || pencil
+  links: /links/ || mars
   about: /about/ || rocket
 
 # Enable/Disable menu icons.
@@ -97,29 +92,19 @@ scheme: Pisces
 # Value before `||` delimeter is the target permalink.
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
 social:
-  GitHub: https://github.com/DIYgod || github
-  Twitter: https://twitter.com/DIYgod || twitter
-  QQ 群: /images/qq-g.jpg || qq || qq
-  Telegram Channel: https://t.me/awesomeDIYgod || telegram
-  更多: https://www.anotherhome.net/3163 || more
+  GitHub: https://github.com/lzjohnny || github
+#  Twitter: https://twitter.com/lzjohnny || twitter
+  Weibo: https://weibo.com/lzjohnny95 || weibo
 
 social_icons:
   enable: true
   icons_only: true
   transition: false
 
-# Blog rolls
-links_icon: link
-links_title: Links
-links_layout: block
-#links_layout: inline
-links:
-  DIYgos: https://diygod.me || https://diygod.me/images/DIYgod.jpg || Hi, DIYgod
-
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.gif
 # in site  directory(source/uploads): /uploads/avatar.gif
-avatar: /images/DIYgod.jpg
+avatar: /images/aoba.jpg
 
 # Table Of Contents in the Sidebar
 toc:
@@ -181,7 +166,7 @@ excerpt_description: true
 # Automatically Excerpt. Not recommend.
 # Please use <!-- more --> in the post to control excerpt accurately.
 auto_excerpt:
-  enable: false
+  enable: true
   length: 150
 
 # Post meta display settings
@@ -208,8 +193,8 @@ post_wordcount:
 
 # Reward
 reward_comment:
-wechatpay: /images/wechatpay.png
-alipay: /images/alipay.png
+wechatpay:
+alipay:
 bitcoin:
 
 # Declare license on posts
@@ -428,7 +413,7 @@ needmoreshare2:
 #google_site_verification:
 
 # Google Analytics
-google_analytics: UA-48084758-7
+#google_analytics: UA-48084758-7
 
 # Bing Webmaster tools verification setting
 # See: https://www.bing.com/webmaster/
@@ -764,17 +749,17 @@ css: css
 js: js
 images: images
 
-header_bg: /images/header-sagiri.jpg
+header_bg: /images/header-newgame.jpg
 
 card:
   avatar: /images/card.jpg
-  name: <span style="opacity:.2;">网红</span>DIYgod
-  description: 你能抓到我么？
+  name: 蒲烧鳗鱼饭团
+  description:
 
 footer:
   # Specify the date when the site was setup.
   # If not defined, current year will be used.
-  since: 2/9/2014 11:30:00
+  since: 1/20/2019 11:30:00
 
   # Icon between year and copyright info.
   icon: user
@@ -799,4 +784,4 @@ footer:
 online_api:
 
 # Theme version
-version: 0.0.4
+version: 0.0.5
