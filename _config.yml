@@ -313,7 +313,7 @@ han: false
 
 # Disqus
 disqus:
-  enable: true
+  enable: false
   shortname: diygod-me
   count: false
 
@@ -413,7 +413,7 @@ needmoreshare2:
 #google_site_verification:
 
 # Google Analytics
-#google_analytics: UA-48084758-7
+google_analytics:
 
 # Bing Webmaster tools verification setting
 # See: https://www.bing.com/webmaster/
