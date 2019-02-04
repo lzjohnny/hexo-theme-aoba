@@ -21,6 +21,9 @@ override: false
 favicon:
   visibilitychange: false
   narmal: /images/favicon.ico
+  hidden: /images/failure.ico
+  show_text: (/≧▽≦/)咦！又好了！
+  hide_text: (●—●)喔哟，崩溃啦！
   apple_touch_icon: /images/apple-touch-icon-next.png
   safari_pinned_tab: /images/logo.svg
   #android_manifest: /images/manifest.json
